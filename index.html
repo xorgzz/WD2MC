@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Density / Mass Calculator</title>
+</head>
+<body>
+	<header>Density / Mass Calculator</header>
+	<div id="main">
+		<input type="text" placeholder="Area"  class="changes longs" id="chck_pole"><label class="metric">m<sup>2</sup></label><br>
+		<input type="text" placeholder="Thickness"  class="changes longs" id="chck_width"><label class="metric">mm</label><br>
+		<select id="material" class="changes">
+			<option value="0">Custom</option>
+			<option value="770">MDF</option>
+			<option value="650">OSB/3</option>
+			<option value="850">HDF</option>
+			<option value="670">Chipboard</option>
+			<option value="550">Alder</option>
+			<option value="710">Ash</option>
+			<option value="125">Balsa</option>
+			<option value="355">Bamboo</option>
+			<option value="800">Beech</option>
+			<option value="640">Birch</option>
+			<option value="540">Cedar</option>
+			<option value="1220">Ebony</option>
+			<option value="1040">Greenheart</option>
+			<option value="960">Hornbeam</option>
+			<option value="1250">Lignum Vitae</option>
+			<option value="675">Mahogany</option>
+			<option value="685">Maple</option>
+			<option value="750">Oak</option>
+			<option value="420">Pine</option>
+			<option value="820">Rosewood</option>
+			<option value="630">Spruce</option>
+			<option value="980">Teak</option>
+			<option value="570">Walnut</option>
+			<option value="7874">Iron</option>
+			<option value="2500">Glass</option>
+			<option value="19300">Gold</option>
+			<option value="7900">Steel</option>
+		</select>
+		<input type="text" class="changes shorts" id="cust" placeholder="Custom Density"><label class="metric">kg/m<sup>3</sup></label>
+		<div id="outpt"></div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
